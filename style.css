@@ -1,0 +1,199 @@
+.row-posts {
+  width: 66%;
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  float: left;
+}
+.row-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  float: right;
+}
+.card-info {
+  margin: 10px 0 0;
+}
+.card-header-text {
+  background-color: #f1f1f1;
+  padding: 18px 16px;
+  font-size: 20px;
+}
+.card-title {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+.owner-name-card-title {
+  font-size: 20px !important;
+}
+.card {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
+.owner-name-highlighted {
+  background-color: black;
+  color: white;
+  padding: 2px 8px 3px;
+  text-align: center;
+}
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+header {
+  padding: 32px 16px 32px;
+  margin: 0;
+}
+.blog-name {
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0 10px;
+}
+.blog-welcome {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px 0 15px;
+}
+.content {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+img.card-image {
+  width: 100%;
+  vertical-align: middle;
+}
+.card-title-description-date {
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0 0px;
+  font-size: 18px;
+}
+.card-date {
+  opacity: 0.6;
+}
+.card-content {
+  font-family: "Raleway", sans-serif;
+  margin-top: 25px;
+  overflow-wrap: normal;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.owner-bio {
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+  font-size: 15px;
+}
+.card-text {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.post-button-readmore {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 12px 24px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 15px; */
+}
+.post-button-readmore:hover {
+  background-color: #ccc;
+}
+.post-button-comments {
+  margin-top: 11.25px;
+  margin-right: 24px;
+  float: inline-end;
+  font-weight: bolder;
+}
+
+b > .post-button-readmore {
+  font-weight: bolder;
+}
+.post-comments-count {
+  display: inline-block;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  padding: 0 8px 0;
+  font-weight: lighter;
+}
+.post-comments-count-zero {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 0 8px 0;
+  font-weight: lighter;
+}
+.post-buttons {
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+.small-post {
+  padding: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid #ddd;
+}
+.small-post-image {
+  width: 50px;
+  margin-right: 16px;
+}
+.small-post-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.small-post-title {
+  font-size: 18px;
+}
+.small-post-description{
+    font-size: 15px;
+}
+.small-post-break {
+  flex-basis: 100%;
+  height: 0;
+}
+.popular-post-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.small-post:hover {
+  background-color: #ccc;
+}
+.tags{
+    padding: 15px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.tag-highlighted{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 0 8px 0;
+    text-align: center;
+}
+.tag-non-highlighted{
+    background-color: #f1f1f1;
+    font-size: 12px;
+    padding: 0 8px 0;
+    text-align: center;
+}
+.tag{
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 16px;
+}
