@@ -127,8 +127,9 @@ b > .post-button-readmore {
   background-color: black;
   border-radius: 50%;
   color: white;
-  padding: 0 8px 0;
+  padding: 0 8px 2px;
   font-weight: lighter;
+  margin-left: 8px;
 }
 .post-comments-count-zero {
   display: inline-block;
@@ -136,6 +137,7 @@ b > .post-button-readmore {
   color: white;
   padding: 0 8px 0;
   font-weight: lighter;
+  margin-left: 8px;
 }
 .post-buttons {
   margin-bottom: 16px;
